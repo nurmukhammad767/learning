@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-
+#Merge branch feature into main
 
 sudo ufw allow 22/tcp
 
