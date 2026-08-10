@@ -6,8 +6,6 @@ set -euo pipefail
 
 
 #Feature Branch and merge into main branch
-
-
 sudo ufw allow 22/tcp
 
 echo "y" | sudo ufw enable | cut -d' ' -f2
